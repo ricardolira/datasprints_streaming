@@ -1,0 +1,5 @@
+faust-streaming==0.4.0
+googlemaps
+SQLAlchemy
+Faker
+python-dotenv
