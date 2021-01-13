@@ -14,7 +14,7 @@ gmaps = googlemaps.Client(key=os.environ['API_KEY'])
 fake = Faker()
 
 app = faust.App(
-    'leader-example',
+    'leader-streaming',
     broker='kafka://kafka:9092',
     value_serializar='raw',
 )
